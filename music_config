@@ -1,0 +1,25 @@
+{
+  "position": "bottom",
+  "height": 48,
+  "layer": "top",
+  "exclusive": true,
+
+  "modules-left": [],
+  "modules-center": [],
+  "modules-right": ["mpris"],
+
+  "mpris": {
+    "format": "{player_icon} {artist} - {title}",
+    "format-paused": "⏸ {artist} - {title} (PAUSED)",
+    "player-icons": {
+      "spotify": "",
+      "firefox": "󰈹",
+      "default": "󰐹"
+    },
+    "status-icons": {
+      "playing": "",
+      "paused": "⏸"
+    },
+    "max-length": 60
+  }
+}

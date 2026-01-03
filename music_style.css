@@ -1,0 +1,19 @@
+* {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0);
+}
+
+#mpris {
+    padding: 0 12px;
+    margin: 4px 12px;
+    border-radius: 30px;
+    background: rgba(30, 30, 46, 0.6);
+    color: #cdd6f4;
+}
+
+#mpris.paused {
+    opacity: 0.6;
+}

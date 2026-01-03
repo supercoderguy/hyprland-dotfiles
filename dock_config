@@ -1,0 +1,32 @@
+{
+  "position": "left",
+  "width": 56,
+  "height": null,
+  "layer": "top",
+  "exclusive": true,
+
+  "modules-left": [
+    "custom/firefox",
+    "custom/files",
+    "custom/terminal"
+  ],
+
+  "modules-center": [],
+  "modules-right": [],
+
+  "custom/firefox": {
+    "format": "󰈹",
+    "on-click": "firefox",
+    "tooltip": "Firefox"
+  },
+  "custom/files": {
+    "format": "󰉋",
+    "on-click": "thunar",
+    "tooltip": "Files"
+  },
+  "custom/terminal": {
+    "format": "",
+    "on-click": "ghostty",
+    "tooltip": "Terminal"
+  }
+}
